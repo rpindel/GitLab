@@ -1,0 +1,46 @@
+/* Reset default margins and paddings */
+body, h1, p, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and text color */
+body {
+  background-color: rgba(192, 220, 243, 0.68);
+  color: rgba(28, 85, 133, 0.68);
+  font-family: Arial, sans-serif;
+}
+
+/* Center the heading */
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+}
+
+/* Add some margin to the paragraph */
+p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Style the blockquote */
+blockquote {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(243, 219, 211, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  color: rgba(102, 69, 120, 0.68);
+}
+
+/* Style the citation */
+cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(28, 85, 133, 0.68);
+}
